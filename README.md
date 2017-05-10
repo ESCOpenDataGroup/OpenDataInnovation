@@ -21,6 +21,7 @@ D3<br>
 https://github.com/d3/d3<br>
 Bootstrat<br>
 JQuery<br>
+Google Map<br>
 
 crawler Framework
 -----------
