@@ -13,9 +13,19 @@ London Empty Homes Audit, Published by Greater London Authority.<br>
 https://data.gov.uk/dataset/london-empty-homes-audit<br>
 
 
-Library:
+JavaScript Library:
 -----------
 Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input.<br>
 https://github.com/mholt/PapaParse<br>
 D3<br>
 https://github.com/d3/d3<br>
+Bootstrat<br>
+JQuery<br>
+
+crawler Framework
+-----------
+Scrapy<br>
+
+Server framework and Library
+------------
+C# .NET MVC
