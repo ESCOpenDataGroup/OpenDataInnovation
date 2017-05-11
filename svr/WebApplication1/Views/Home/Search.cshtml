@@ -1,0 +1,45 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Search what are your looking for.</title>	
+        <link href="~/Content/search_style.css" rel="stylesheet">
+
+		<script language="JavaScript">
+			function dosearch() {
+			var sf=document.searchform;
+			var submitto = sf.sengine.value + escape(sf.searchterms.value);
+			window.location.href = submitto;
+			return false;
+			}
+		</script>
+	</head>
+	<body>
+		
+		<div class="header">
+			<img src="~/images/Logo_sample.png" />
+		</div>
+		
+		<h1 class="headline" style="font:300 8em helvetica neue;">Find your intrest</h1>
+		
+		<div class="content">
+			<h2>GET WHAT YOU LOOKING FOR</h2>
+			
+			<p class="text">
+				Input keywords about your intresting housing information to the search box below, you can simply get detailed information of london estate. We are collecting housing information 7×24, only for fulfill your requirements.
+			
+				<form name="searchform" onSubmit="return dosearch();">
+					<input type="hidden" name="sengine" value="http://www.google.com/search?q=site:www.yoursite.com+" />
+					<input type="text" name="searchterms" class="inputform">
+					<input type="submit" name="SearchSubmit" value="Search" class="button"> 
+				</form>
+				
+			</p>
+				
+			<p class="links">
+				<a id="button" href="http://sc.chinaz.com/">&larr; Back to Home page</a> 
+			</p>
+		</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>		
+	</body>
+</html>

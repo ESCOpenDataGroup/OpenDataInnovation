@@ -215,6 +215,7 @@
     <Content Include="Content\main.css" />
     <Content Include="Content\prettyPhoto.css" />
     <Content Include="Content\responsive.css" />
+    <Content Include="Content\search_style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -264,6 +265,7 @@
     <Content Include="images\ico\favicon.ico" />
     <Content Include="images\image_bg.png" />
     <Content Include="images\logo.png" />
+    <Content Include="images\Logo_sample.png" />
     <Content Include="images\man1.jpg" />
     <Content Include="images\man2.jpg" />
     <Content Include="images\man3.jpg" />
@@ -339,6 +341,7 @@
     <Content Include="images\prettyPhoto\light_square\sprite.png" />
     <Content Include="images\ribon_one.png" />
     <Content Include="images\ribon_two.png" />
+    <Content Include="images\search_background.png" />
     <Content Include="images\search_icon.png" />
     <Content Include="images\services\bg_services.jpg" />
     <Content Include="images\services\bg_services.png" />
@@ -425,6 +428,7 @@
     <Content Include="Views\Home\pricing.cshtml" />
     <Content Include="Views\Home\services.cshtml" />
     <Content Include="Views\Home\shortcodes.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
