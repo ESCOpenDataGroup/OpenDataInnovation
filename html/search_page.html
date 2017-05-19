@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Find what you want</title>
+	
+		<link rel="stylesheet" media="screen" href="search_style.css">
+		<script language="JavaScript">
+			function dosearch() {
+				window.location.href = "projectDetail.html";
+				return false;
+			}
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<img src="images/logo.png" />
+		</div>
+		
+		<p class="headline">Find your intrest</p>
+		
+		<div class="content">
+			<h2>GET WHAT YOU LOOKING FOR</h2>
+			
+			<p class="text">
+				Input keywords about your intresting housing information to the search box below, you can simply get detailed information of london estate. We are collecting housing information 7×24, only for fulfill your requirements.
+			
+				<form name="searchform" onSubmit="return dosearch();">
+					<input type="hidden" name="sengine" value="http://www.google.com/search?q=site:www.yoursite.com+" />
+					<input type="text" name="searchterms" class="inputform">
+					<input type="submit" name="SearchSubmit" value="Search" class="button"> 
+				</form>
+				
+			</p>
+				
+			<p class="links">
+				<a id="button" href="index.html">&larr; Back to Home page</a> 
+			</p>
+		</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>		
+	</body>
+</html>
