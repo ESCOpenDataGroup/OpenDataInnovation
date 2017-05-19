@@ -1,0 +1,3 @@
+index is the main page to enter in our web application. This file can be opened in use with any http server.
+The about-us is the page with google map telling people who want to find london estate hotspots and the services pages is the page with our analisis on london hotspots analysis with factors related with the london estate such as education, traffic, safety. In here, we develop our own analysis module.
+The search pages is a page where people can help the clients searching with capital word about there interest area.

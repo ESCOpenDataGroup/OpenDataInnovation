@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Find what you want</title>
+
+		    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+	
+		<link rel="stylesheet" media="screen" href="search_style.css">
+		<script src="js/jquery-1.4.2.min.js" type="text/javascript" charset="gb2312"></script>
+		<script src="js/hPrice.js" type="text/javascript" charset="gb2312"></script>
+		<script src="js/SearchEngine.js" type="text/javascript" charset="gb2312"></script>
+		<script language="JavaScript">
+ var os = new ObjSearch();
+        function Init()
+        {
+            os.kw = $('#txtkw').val();        
+        }
+		</script>
+		 <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	</head>
+	<body>
+    <header id="header">
+		<style type="text/css">
+		h1{
+			color: #C0C0C0
+		}
+		.content{
+			margin: 100px auto
+	
+
+		}
+		table, td, th
+{
+	border:1px solid black;
+	margin: 0 auto;
+}
+th
+{
+	background-color:black;
+	color:white;
+}
+tr{
+	background-color:#272727;
+	color:white;
+}
+		</style>
+       
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div>
+                
+               <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Introduction</a></li>
+                        <li><a href="about-us.html">Hotspots</a></li>
+                        <li><a href="services.html">Analysis</a></li>
+                        <li class="active"><a href="search_page.html">Search</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+        
+    </header><!--/header-->
+		
+		
+		
+		<div class="content">
+			<h1>Your Dream Houses</h1>
+			
+			<p class="text">
+				Input keywords about your intresting housing information to the search box below, you can simply get detailed information of london estate. We are collecting housing information 7×24, only for fulfill your requirements.
+			
+				</p>
+					<input type="hidden" name="sengine" value="http://www.google.com/search?q=site:www.yoursite.com+" />
+					<input type="text" name="searchterms" id="txtkw" value="capital letter only" class="inputform">
+					<input type="submit" name="SearchSubmit" id="Button1" value="Search" class="button" onclick="Init();os.search();"> 
+				
+				
+			
+				
+	<p></p>
+
+				<div class="list">
+    	<div id="content"></div>
+		<div id="pager">
+            <div id="total"></div>
+            <div id="pagelist"></div>
+        </div>
+    </div>
+		</div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>		
+	</body>
+</html>
